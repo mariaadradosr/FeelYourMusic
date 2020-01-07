@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1><p>Welcome Back to <span style="color: #89fbde">FeelYourMusic</span>,</p>
+    <p>{{ name }}!</b></p></h1>
+    <div class="parrafo">
+    <span style="color: #434343 ;font-size: 0.8em">
+        <p>You have <span style="color: #89fbde; font-size: 2.5em;">{{saved_songs}}</span> <b>saved songs</b> and <span style="color: #89fbde; font-size: 2.5em">{{user_playlists}}</span> 
+            <b>playlists</b> with <span style="color: #89fbde; font-size: 2.5em">{{playlists_songs}}</span> songs.</p>
+        <p>Your <span style="color: #89fbde">favourite artists</span> are <span style="color: #b1abab;">{{top_artists}}</span></p>
+        <p>Your <span style="color: #89fbde">favourite songs</span> are <span style="color: #b1abab">{{top_tracks}}</span></p>
+    </span>
+        <p>Our database has <span style="color: #89fbde; font-size: 2.5em"><b>{{ total }}</b></span> songs already saved from your library,</p>
+        <p> <span style="color: #000000;font-weight: 900;font-size: 1.6em">Would you like to upload your recent activity?</span></p>
+    </div>
+    <div class="wrapper">
+    <a href="{{ url_for('upload') }}" class="button1 bouncy">YES</a>
+    <a href="{{ url_for('feeling') }}" class="button2 bouncy">NO</a>
+    </div>
+{% endblock %}
+
+  
+
+
+
+    

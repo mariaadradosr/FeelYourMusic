@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1><p>Your  <span style="color: #89fbde"><b>playlist</b></span> has been saved within your Spotify playlists</p></h1>
+    <p><span style="color: #9e9f99; font-size: 1.5em">{{tracksCreated}}</span></p>
+    <h3><p> Would you like to create another one?</p></h3>
+    <div class="wrapper">
+            <a href="{{ url_for('feeling') }}" class="button1 bouncy">YES</a>
+            <a href="{{ url_for('thanku') }}" class="button2 bouncy">NO</a>
+            </div>
+{% endblock %}

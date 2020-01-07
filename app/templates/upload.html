@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h4><p>Select your <span style="color: #89fbde">uploading</span> preferences</p></h4>
+
+<h4>
+<form action="/upload" method="POST">
+    <p><b>Top Tracks</b> <input type="checkbox" class='css-input' value = 'current_user_top_tracks' name= "mycheckbox"></p>
+    <p><b>Top Artists</b> <input type="checkbox" value = 'current_user_top_artists' name= "mycheckbox"></p>
+    <p><b>Saved Songs</b> <input type="checkbox" value = 'current_user_saved_tracks' name= "mycheckbox"></p>
+    <p><b>Saved Playlists</b> <input type="checkbox" value ='current_user_playlists' name= "mycheckbox"></p>
+    <!-- <p><input type="submit"></p> -->
+    <button type="submit" class="button bouncy">Submit</button>
+</form>
+</h4>
+
+{% if feedback %}
+<p class="text-danger float-right"> <b><span style="color: #c44141">{{ feedback }}</span></b></p>
+{% endif %}
+
+{% endblock %}

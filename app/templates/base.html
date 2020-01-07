@@ -1,0 +1,56 @@
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Work+Sans&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <style>
+        .button {
+          display:inline-block;
+          padding:0.4em 1em;
+          border:0.1em solid #89fbde;
+          background-color:#89fbde;
+          margin:0 0.3em 0.3em 0;
+          border-radius:0.5em;
+          box-sizing: border-box;
+          text-decoration:none;
+          font-size: 1em;
+          font-family:'Roboto',sans-serif;
+          font-weight:900;
+          color:#454545;
+          text-align:center;
+          transition: all 0.2s;
+        }
+        .button:hover{
+          color:#fff;
+          background-color:#89fbde;
+          }
+        .button5 {background-color: #89fbde;} /* Blue */
+        .button6 {background-color: #434343;} /* Red */ 
+        .button7 {background-color: #89fbde;padding: 7px 15px;margin: 4px 2px;font-weight: 800; font-size: 1.5em;color: #434343;} /* Red */ 
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+          }
+        </style>
+  </head> 
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Feel<span style="color: #f9f586">Your</span>Music</h1>
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+    <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
