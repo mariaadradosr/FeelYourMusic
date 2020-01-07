@@ -9,8 +9,12 @@ Personalized Spotify playlists based on feelings
 4. Escalo y normalizo los datos.
 5. Como el objetivo es agrupar las canciones por sentimientos y estas a priori no están clasificadas elijo como **método de aprendizaje no supervisada** la aplicación del **algoritmo k-medias**, que agrupa objetos en k grupos basándose en sus características.
 6. El número óptimo de k lo determino usando la técnica del codo y obtengo 6.
-7. Una vez etiquetados las más de 3000 canciones, aplico sobre estas un **modelo de aprendizaje supervisado**, entreno  clasificador del centroide más cercano que me permitirá clasificar/etiquetar las canciones de los usuarios que usen la app.
+7. Una vez etiquetados las más de 3000 canciones, aplico sobre estas un **modelo de aprendizaje supervisado**, entreno  clasificador del centroide más cercano que me permitirá clasificar/etiquetar las canciones de los usuarios que usen la app.++
 
+### Ejemplo clasificación 
 
 ![Ejemplo](/images/ejemplo.png)
 
+### Proceso aplicación 
+
+![Ejemplo](/images/flow.png)
