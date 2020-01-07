@@ -1,6 +1,5 @@
-# FeelYourMusic: `Personalized Spotify playlists based on feelings`
-
-
+# FeelYourMusic: 
+  `Personalized Spotify playlists based on feelings`
 
 Backgroung:
 
