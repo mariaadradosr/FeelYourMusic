@@ -12,9 +12,5 @@ Personalized Spotify playlists based on feelings
 7. Una vez etiquetados las más de 3000 canciones, aplico sobre estas un **modelo de aprendizaje supervisado**, entreno  clasificador del centroide más cercano que me permitirá clasificar/etiquetar las canciones de los usuarios que usen la app.
 
 
-![Ejemplo clasificación música] (images/ejemplo.png)
-< img src='images/ejemplo.png', title = ''>
-
-
 ![Ejemplo](/images/ejemplo.png)
 Format: ![Ejemplo](https://github.com/mariaadradosr/FeelYourMusic/images/ejemplo.png)
