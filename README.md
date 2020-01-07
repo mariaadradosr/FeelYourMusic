@@ -13,4 +13,4 @@ Personalized Spotify playlists based on feelings
 
 
 ![Ejemplo](/images/ejemplo.png)
-Format: ![Ejemplo](https://github.com/mariaadradosr/FeelYourMusic/images/ejemplo.png)
+
