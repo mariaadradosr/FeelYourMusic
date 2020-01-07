@@ -1,5 +1,5 @@
-# FeelYourMusic: 
-  `Personalized Spotify playlists based on feelings`
+# FeelYourMusic: 🎧  
+`Personalized Spotify playlists based on feelings`
 
 Backgroung:
 
@@ -15,6 +15,6 @@ Backgroung:
 
 ![Ejemplo](/images/ejemplo.png)
 
-### Proceso aplicación 
+### Flujo aplicación 
 
 ![Ejemplo](/images/flow.png)
