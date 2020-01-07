@@ -1,7 +1,7 @@
 # FeelYourMusic: 🎧  
 `Personalized Spotify playlists based on feelings`
 
-Backgroung:
+Background:
 
 1. Creo una base de datos con más de 3000 canciones de 48 playlists distintas de Spotify.
 2. A cada canción le cargo todos los parámetros internos que te ofrece la API de Spotify (danceability, valence, energy, tempo, loudness, key …).
