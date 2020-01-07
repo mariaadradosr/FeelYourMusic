@@ -14,3 +14,7 @@ Personalized Spotify playlists based on feelings
 
 ![Ejemplo clasificación música] (images/ejemplo.png)
 < img src='images/ejemplo.png', title = ''>
+
+
+![Ejemplo](/images/ejemplo.png)
+Format: ![Ejemplo](https://github.com/mariaadradosr/FeelYourMusic/images/ejemplo.png)
