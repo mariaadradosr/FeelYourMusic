@@ -1,4 +1,4 @@
-# FeelYourMusic 🎧  
+# FeelYourMusic   🎧  
 `Personalized Spotify playlists based on feelings`
 
 Background:
