@@ -13,7 +13,7 @@ Background:
 
 ### Ejemplo clasificación 
 
-![Ejemplo](/images/ejemplo.png)
+![Ejemplo](/images/ejemplo_1.png)
 
 ### Flujo aplicación 
 
